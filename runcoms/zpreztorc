@@ -35,7 +35,10 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'syntax-highlighting' \
+  'prompt' \
+  'git' \
+  'python'
 
 #
 # Autosuggestions
@@ -222,3 +225,19 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 # before deleting or overwriting files. Set to 'no' to disable this safer
 # behavior.
 # zstyle ':prezto:module:utility' safe-ops 'yes'
+
+
+# CUSTOM
+zstyle ':prezto:module:git:alias' skip 'yes'
+zstyle ':prezto:module:utility' correct 'no'
+
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+  'main' \
+  'brackets' \
+  'pattern' \
+  'line' \
+  'cursor' \
+  'root'
+
+# virtualenv name has to match project directory name
+zstyle ':prezto:module:python:virtualenv' auto-switch 'yes'
