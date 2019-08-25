@@ -22,5 +22,6 @@ export FZF_CTRL_R_OPTS="--height=15"
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
 
+alias config="/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME"
 
 qotd
