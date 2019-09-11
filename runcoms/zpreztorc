@@ -237,3 +237,4 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
   'line' \
   'root'
 
+zstyle ':prezto:*:*' case-sensitive 'yes'
