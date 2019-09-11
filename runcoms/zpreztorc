@@ -37,8 +37,7 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'syntax-highlighting' \
   'prompt' \
-  'git' \
-  'python'
+  'git'
 
 #
 # Autosuggestions
@@ -238,5 +237,3 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
   'line' \
   'root'
 
-# virtualenv name has to match project directory name
-zstyle ':prezto:module:python:virtualenv' auto-switch 'yes'
