@@ -15,7 +15,6 @@ fi
 # Exit if fzf is not installed
 if ! builtin type fzf >/dev/null 2>&1; then
   print "fzf not installed, exiting"
-  return 1
 fi
 
 export FZF_CTRL_R_OPTS="--height=15"
